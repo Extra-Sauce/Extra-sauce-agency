@@ -2,6 +2,12 @@
 
 A modern, customizable web application built with Vite, React, TypeScript, shadcn-ui, and Tailwind CSS.
 
+## Manus Development Workflow
+This project is integrated with Manus for development management.
+- **Source of Truth**: GitHub (`main` branch)
+- **Previews & Deployments**: Vercel (automatic previews on Pull Requests, automatic live deploys on `main` merge)
+- **Development & QA**: Manus (creates feature branches and Pull Requests safely)
+
 ## Features
 - Fast development with Vite
 - Type-safe codebase using TypeScript
